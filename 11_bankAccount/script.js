@@ -17,7 +17,7 @@ class BankAccount{
       this.balance -= amount
       console.log(`Withdrawn ${amount} from account ${this.accountNumber}. New balance:${this.balance}`)
       
-          }
+          } 
   }
   transfer(amount, recipientAccount){
     if(amount > this.balance){
